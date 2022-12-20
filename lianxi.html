@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+	dc{
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 1;
+	}
+		a:link,a:visited{
+			display: block;
+			background-color: antiquewhite;
+			width: 120px;
+			text-align:center;
+			color: #222222;
+			text-decoration: none;
+			text-transform: uppercase;
+			font-weight: bold;
+			line-height: 60px;
+			font-size:medium;
+			
+		}
+		a:hover,a:active{
+			background-color: #222222;
+			color: antiquewhite;
+			font-size: large;
+		}
+	.bd{
+		display: none;
+		
+		}
+	.dropdown:hover .bd{
+		display: block;
+		background-color: antiquewhite;
+		position: fixed;
+		height: 100%;
+	}
+	
+   </style>
+</head>
+<body>
+	<dc>
+		
+		<div class="dropdown">
+		<a href="#1" class="cv">home</a>
+		<div class="bd">
+			<a href="#1">home</a>
+			<a href="#1">home</a>
+			<a href="#1">home</a>
+			<a href="#1">home</a>
+		</div>
+	</div>
+	
+	</dc>
+	<div style="
+	background-color: cadetblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 32px;
+	color: antiquewhite;
+	letter-spacing: 2px;
+	border-radius: 8px;
+	height: 60px;">官网</div>
+	<div style="
+	background-color: cadetblue;
+	display: flex;
+	font-weight: bold;
+	margin-top: 10px;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 400px;
+	color: antiquewhite;
+	text-shadow:2px 2px #222222;">
+	<div style="display: flex;justify-content: flex-end;margin-right: 10px;font-size: 40px;">这是一串英文</div>
+	<div style="display: flex;">
+		<div style="flex: 2;display: flex;flex-direction: column">
+			<b style="letter-spacing: 2px;
+	border-radius: 8px;
+	margin-bottom:10px ;
+	font-size: 16px;">这是一串英文 方便 阅读</b>
+			<b style="letter-spacing: 2px;
+	border-radius: 8px;
+	margin-bottom:10px ;
+	font-size: 22px;">这是一串英文 方便 阅读</b>
+			<b style="letter-spacing: 2px;
+	border-radius: 8px;
+	margin-bottom:10px ;
+	font-size: 32px;">这是一串英文 方便 阅读</b>
+			<b style="letter-spacing: 2px;
+	border-radius: 8px;
+	margin-bottom:10px ;
+	font-size: 40px;
+	">这是一串英文 方便 阅读</b>
+		</div>
+		<div style="flex: 1;justify-content: flex-end;display: flex;align-items: flex-end;"><b style="margin-right: 10px;margin-bottom: 10px;">英文</b></div>
+		</div>
+	</div>
+</body>
+</html>
